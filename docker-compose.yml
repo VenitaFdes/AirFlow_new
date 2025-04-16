@@ -1,0 +1,8 @@
+services:
+  airflow-worker:
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+        reservations:
+          memory: 1g
